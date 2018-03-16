@@ -50,7 +50,7 @@ RUN apt-get update ; \
     /usr/sbin/a2enmod rewrite ;\
     /usr/sbin/a2enmod ssl ;\
     /usr/sbin/a2enmod authz_user ;\
-    wget https://raw.githubusercontent.com/mmasquelin/OCSInventory-Docker-Image/latest/binutils/docker-download.sh ;\
+    wget https://raw.githubusercontent.com/mmasquelin/OCSInventory-Docker-Image/docker_download-fix/2.4/binutils/docker-download.sh ;\
     sh docker-download.sh 2.4
 
 WORKDIR /tmp/ocs/Apache
